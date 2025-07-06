@@ -110,7 +110,7 @@ A aplicação possui as seguintes entidades principais:
 
 #### Modelo ER
 
-> ![Modelo Entidade Relacionamento](https://photos.fife.usercontent.google.com/pw/AP1GczMX_92OqU_FFNSUbeqrb1asyGyHTvCWYK0JjBy5K9YIx7MMTws73oX5HA=w1246-h806-s-no-gm?authuser=0)
+> ![Modelo Entidade Relacionamento](./assets/Modelo_ER_FutebolSemanalAPI.png)
 
 ---
 
