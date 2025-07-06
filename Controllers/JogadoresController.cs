@@ -126,7 +126,7 @@ namespace Futebol_Semanal_API.Controllers
             if (foto == null || foto.Length == 0)
                 return BadRequest("Arquivo inválido.");
 
-            var connectionString = _configuration["AzureBlobStorage:ConnectionString"];
+            var connectionString = _configuration.GetConnectionString("AzureBlobStorage");
 
             // Remover imagem antiga do Azure Blob Storage, se existir
             if (!string.IsNullOrEmpty(jogador.ImagemUrl))
